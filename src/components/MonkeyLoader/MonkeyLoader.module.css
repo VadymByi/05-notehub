@@ -1,0 +1,21 @@
+.monkey {
+  position: fixed;
+  left: 50%;
+  bottom: -200px;
+  transform: translateX(-50%);
+  transition: bottom 0.6s ease;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.visible {
+  bottom: 0;
+}
+
+.hidden {
+  bottom: -200px;
+}
+
+.monkey img {
+  width: 150px;
+}
